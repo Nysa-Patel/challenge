@@ -1,0 +1,31 @@
+h1 {
+    background-color: grey;
+}
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 3;
+
+}
+.side {
+    background-clip: text;
+    background-color: grey;
+    padding: 20px;  /* Add some padding */
+    flex: 1;  /* Makes the side section take available space */
+    color: transparent;  /* Makes the text color transparent */
+}
+.part1 {
+    height: 300;
+    width: 40;
+}
+.part2 {
+    height: 300;
+    width: 60;
+
+}
+.part3{
+    height: 300;
+    width: 80;
+
+}
