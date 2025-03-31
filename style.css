@@ -1,31 +1,29 @@
 h1 {
     background-color: grey;
 }
-.image {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    flex: 3;
+.captionandimage {
+    display: inline-block;
+    justify-content: space-between; /* Adjust the space between items */
+    gap: 20px; 
+}
 
+.captionandimage > div {
+    text-align: center; /* Align captions under the images */
+}
+
+.image1, .image2, .image3 {
+    display: flex; /* Ensures the images are aligned horizontally */
 }
 .side {
-    background-clip: text;
-    background-color: grey;
+
+    background-color: rgb(138, 138, 138);
     padding: 20px;  /* Add some padding */
     flex: 1;  /* Makes the side section take available space */
     color: transparent;  /* Makes the text color transparent */
 }
-.part1 {
-    height: 300;
-    width: 40;
+.container{
+    display:flex;
 }
-.part2 {
-    height: 300;
-    width: 60;
-
-}
-.part3{
-    height: 300;
-    width: 80;
-
+.main{
+    flex:4;
 }
